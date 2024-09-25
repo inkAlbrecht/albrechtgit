@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade 02 de froms</title>
+        <style>
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                background-position: 20px;
+                background-color: darkgoldenrod;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Sistema de gestão acadêmica</h1>
+        <h2>Manutenção de usuário do sistema interno</h2>
+        <form>
+            <p>
+                <table>
+
+                
+                    <tr>
+                        <td><p>login</p></td>
+                        <td><input type="email" placeholder="E-mail"></td>
+                    </tr>
+                
+
+                    <tr>
+                        <td><p>Senha</p></td>
+                        <td><input type="password" placeholder="senha"></td>
+                    </tr>
+                
+
+                <br>
+                    <tr>
+                <td><label for="Status">Status</label></td>
+
+                  <td> <select id="Status" name="status">
+                        <option value="ativo">ativo</option>
+                        <option value="inativo">inativo</option>
+                    </select> </td> 
+                </tr>
+
+                <br>
+
+                    <tr>
+                        <td><p>Tipo</p></td>
+                        <td> <input type="radio"> tecnico
+                        <input type="radio"> Professor 
+                        <input type="radio"> Aluno </td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Data de criação</p></td>
+                        <td> <input type="date"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Perfil</p></td>
+                        <td> <input type="radio"> convidado 
+                         <input type="radio"> adm </td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Observações</p></td>
+                        <td><input type="te" placeholder="Digite aqui" style="overflow: scroll; height: 100px;"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><P>Modulos</P></td>
+                        <td> <input type="radio"> Compras      
+                        <input type="radio"> Biblioteca 
+                        <input type="radio"> Academicos <br>
+                        <input type="radio"> Documentação 
+                        <input type="radio"> RH </td>
+                    </tr>
+
+                    <br>
+</table>
+                    <button type="reset">Excluir</button>
+                    <button>Cadastrar</button>
+                
+            </p>
+        </form>
+    </body>
+</html>
