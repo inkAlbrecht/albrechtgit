@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <heade> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+        <title>Agenda Telefonica</title>
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container{
+                width:50%;
+                margin:auto;
+                padding: 20px;
+                background: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0, 1);
+            }
+
+            h1, h2{
+                text-align: center;
+            }
+
+            input{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+
+            from input{
+                width: 30%;
+                padding: 10px;
+                margin: 0 5px;
+            }
+
+            from button{
+                padding: 10px;
+                background-color: #5cb85c;
+                color: white;
+                border: none;
+                cursos: pointer;
+            }
+
+            from button:hover{
+                background-color: #4cae4c;
+            }
+
+            table{
+                width: 100%;
+                border-collapse:collapse;
+            }
+
+            table, th,td{
+                border: 1px solid #ddd;
+            }
+
+            th, td{
+                padding: 12px;
+                text-align: left;
+            }
+
+            thead{
+                background-color: #f2f2f2;
+            }
+
+        </style>
+    </head>  
+    <body>
+        <div class="container">
+            <h1>Agenda Telefonica</h1>
+            <form action="method"="POST">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="mumero" placeholder="Telefone" required>
+                <input type="text" name="endereço" placeholder="Endereço" required>
+                <button type="submit">Adicionar contato</button>
+            </form>
+
+            <h2>Contatos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Email</th>
+                        <th>Endereço</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </body>
+</html>
+
+
+
+
+
