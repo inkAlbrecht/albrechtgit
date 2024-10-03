@@ -1,0 +1,57 @@
+.box{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.box2{
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    
+}
+
+.box3{
+    background: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.box4{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    
+    
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: arial;
+}
+h2{
+    color: black;
+    font-family: arial;
+}
+h3{
+    color: black;
+    font-family: arial;
+}
+h4{
+    color: black;
+    font-family: arial;
+}
