@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <heade> 
+    <head> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
         <title>Agenda Telefonica</title>
@@ -42,7 +42,7 @@
                 background-color: #5cb85c;
                 color: white;
                 border: none;
-                cursos: pointer;
+                
             }
 
             from button:hover{
@@ -66,36 +66,35 @@
             thead{
                 background-color: #f2f2f2;
             }
+            button{
+                font-family:times new roman;
+                color: rgba(44, 84, 216, 0.918);
+            }
+            h1{
+                font-family: gill sans;
+                color: rgb(0, 102, 255);
+            }
+           
 
         </style>
     </head>  
     <body>
+        
+        <div>
+            <div class="container">
+                <h1>Novo por aqui?</h1>
+                <button type="submit">Clica aqui para criar uma conta</button>
+        </div>
         <div class="container">
-            <h1>Agenda Telefonica</h1>
+            <img src="login.png2.jpg" alt="image" height="80" width="80">
+            <h2>Agenda Telefonica</h2>
             <form action="method"="POST">
-                <input type="text" name="nome" placeholder="Nome" required>
                 <input type="email" name="email" placeholder="Email" required>
-                <input type="tel" name="mumero" placeholder="Telefone" required>
-                <input type="text" name="endereço" placeholder="Endereço" required>
-                <button type="submit">Adicionar contato</button>
+                <input type="password" name="senha" placeholder="Senha" required>
+                
+        
+                <button type="submit">Entrar</button>
             </form>
-
-            <h2>Contatos</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Telefone</th>
-                        <th>Email</th>
-                        <th>Endereço</th>
-                    </tr>
-                </thead>
-            </table>
         </div>
     </body>
 </html>
-
-
-
-
-
