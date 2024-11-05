@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="add.css">
+        <title>Agenda Telefonica</title>
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+                background-color: #b777e2;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container{
+                width:50%;
+                margin:auto;
+                padding: 20px;
+                background: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0, 1);
+            }
+            h1{
+                font-family: gill sans;
+            }
+            h2{
+                text-align: center;
+            }
+           
+            input{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+
+            button{
+                font-family:times new roman;
+                color: rgba(44, 84, 216, 0.918);
+                
+            }
+
+        </style>
+    </head>  
+    <body>
+        
+        <div>
+            <div class="container">
+                <h1>Novo por aqui?</h1>
+                <button type="submit">Clica aqui para criar uma conta</button>
+        </div>
+        <div class="container">
+            <img src="login.png2.jpg" alt="image" height="80" width="80">
+            <h2>Agenda Telefonica</h2>
+            <form action="method"="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
