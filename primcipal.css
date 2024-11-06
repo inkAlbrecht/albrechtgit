@@ -1,0 +1,48 @@
+body{
+    background-color: #e0bcdd;
+}
+
+.botao-imagem{
+    display: inline-block;
+    border: none; /* Remove a borda do botão */
+    background: none; /* Remove o fundo */
+    padding: 0; /* Remove o preenchimento */
+    cursor: pointer; /* Faz o botão ter a aparência de clicável */
+}
+
+.botao-imagem img {
+    width: 100px; /* Ajuste o tamanho das imagens */
+    height: auto;
+}
+
+.container {
+    text-align: center; /* Se necessário, centraliza os botões */
+    color: dimgray;
+}
+
+p{
+    font-size: medium;
+}
+
+table {
+    width: 60%; /* Definindo a largura da tabela */
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Para melhorar a aparência das bordas */
+}
+
+th, td {
+    padding: 10px; /* Espaçamento dentro das células */
+    border: 1px solid #000000; /* Borda para a tabela */
+    text-align: center; /* Centraliza o conteúdo das células */
+}
+
+a{
+    display: inline-block;
+    border: none; /* Remove a borda do botão */
+    background: none; /* Remove o fundo */
+    padding: 0; /* Remove o preenchimento */
+    cursor: pointer; /* Faz o botão ter a aparência de clicável */
+    width: 100px; /* Ajuste o tamanho das imagens */
+    height: auto;
+
+}
